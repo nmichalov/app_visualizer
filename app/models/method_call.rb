@@ -1,9 +1,8 @@
 class MethodCall < ActiveRecord::Base
-  attr_accessible :line, :context
-  
-  belongs_to :namespace_method
-  belongs_to :namespace
-  belongs_to :app_file, :through => :namespace
-  
+  attr_accessible :line
+  attr_accessible :line_number 
 
+  belongs_to :app_file_id
+  belongs_to :namespace_id
+  belongs_to :namespace_method_id
 end

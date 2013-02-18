@@ -1,10 +1,10 @@
 class CreateAppDirectoryNodes < ActiveRecord::Migration
   def change
     create_table :app_directory_nodes do |t|
-      t.integer :parent_node_id
       t.string :name
-
-      t.timestamps
+      t.integer :parent_directory_node_id
     end
+    
+    index :app_directory_nodes, :parent_directory_node_id
   end
 end

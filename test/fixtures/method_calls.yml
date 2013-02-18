@@ -1,7 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
+  app_file_id: 1
+  namespace_id: 1
+  namespace_method_id: 1
+  line: MyString
+  line_number: 1
 
 two:
-  name: MyString
+  app_file_id: 1
+  namespace_id: 1
+  namespace_method_id: 1
+  line: MyString
+  line_number: 1

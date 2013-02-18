@@ -3,9 +3,7 @@
 one:
   name: MyString
   namespace_id: 1
-  app_file_id: 1
 
 two:
   name: MyString
   namespace_id: 1
-  app_file_id: 1
