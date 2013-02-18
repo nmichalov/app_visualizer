@@ -1,4 +1,14 @@
 AppVisualizer::Application.routes.draw do
+  resources :namespace_methods
+
+  resources :namespaces
+
+  resources :method_calls
+
+  resources :app_directory_nodes
+
+  resources :app_files
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

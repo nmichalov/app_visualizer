@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>App directory:</b>
+  <%= @app_file.app_directory_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @app_file.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_app_file_path(@app_file) %> |
+<%= link_to 'Back', app_files_path %>
