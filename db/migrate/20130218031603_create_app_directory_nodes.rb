@@ -4,7 +4,5 @@ class CreateAppDirectoryNodes < ActiveRecord::Migration
       t.string :name
       t.integer :parent_directory_node_id
     end
-    
-    add_index :app_directory_nodes, :parent_directory_node_id
   end
 end

@@ -7,9 +7,5 @@ class CreateMethodCalls < ActiveRecord::Migration
       t.integer :namespace_id
       t.integer :namespace_method_id
     end
-  
-    add_index :method_calls, :app_file_id
-    add_index :method_calls, :namespace_id
-    add_index :method_calls, :namespace_method_id
   end
 end

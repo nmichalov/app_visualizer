@@ -4,7 +4,5 @@ class CreateNamespaces < ActiveRecord::Migration
       t.string :namespace
       t.integer :superspace_id
     end
-
-    add_index :namespaces, :superspace_id
   end
 end
